@@ -1,0 +1,17 @@
+{
+  "name": "qrgen",
+  "version": "1.0.0",
+  "description": "qrcode generator for bookstreams.org",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^2.3.11",
+    "canvas": "^1.1.6",
+    "express": "^4.10.6",
+    "qrcode": "^0.2.12"
+  }
+}
