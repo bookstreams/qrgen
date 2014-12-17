@@ -12,6 +12,8 @@ var baseImageBuffer = fs.readFileSync("./base-image.png");
 var baseImageImage = new Canvas.Image();
 baseImageImage.src = baseImageBuffer;
 
+var ENTROPY = 16;
+
 var pngBufferFromString = function (string) {
     return new BPromise(function (resolve, reject) {
         QRCode.draw(string, function (err, qrCodeCanvas) {
